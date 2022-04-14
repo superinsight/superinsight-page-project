@@ -1,4 +1,4 @@
-## SuperInsight
+## SuperInsight Project
 
 The SuperInsight open source project is a easy to use framework for finetuning GPT models.
 Our goal is to provide the a collection of API so that developers can finetune their own GPT models without the hazzle of managing different packages and dependencies to train GPT models. 

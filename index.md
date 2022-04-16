@@ -6,7 +6,9 @@ Our goal is to provide the a collection of API so that developers can finetune t
 
 ### [SuperInsight FineTuning API](https://github.com/superinsight/superinsight-api-finetuning)
 
-This is a RESTful API that you can use to setup the config and data to finetune your model
+This is a RESTful API that you can use to setup the config and data to finetune your model.
+
+To see how the API works, visit our [documenation page](https://finetuning.api.superinsight.dev/docs)
 
 #### Stories
 Stories are text will be use for finetuning. You can create unlimited number of stories using this API.

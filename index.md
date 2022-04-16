@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## The SuperInsight Project
 
-You can use the [editor on GitHub](https://github.com/superinsight/superinsight-page-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The SuperInsight open source project is a easy to use framework for finetuning GPT models.
+Our goal is to provide the a collection of API so that developers can finetune their own GPT models without the hazzle of managing different packages and dependencies to train GPT models. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### [SuperInsight FineTuning API](https://github.com/superinsight/superinsight-api-finetuning)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is a RESTful API that you can use to setup the config and data to finetune your model.
 
-```markdown
-Syntax highlighted code block
+To see how the API works, visit our [documenation page](https://finetuning.api.superinsight.dev/docs)
 
-# Header 1
-## Header 2
-### Header 3
+#### Stories
+Stories are text will be use for finetuning. You can create unlimited number of stories using this API.
+Stories can be use as dataset to finetune one or multiple models. For example, let's say that you will like to finetune a model to support french.
+You can create thousands of stories and with the tag `french`, and when you are ready, you can create a French GPT model by finetuning it with all french stories. If you like to finetune a model for French and German, then you can create a finetune model by using the tags `french` and `german` so your finetune model can support both languages.
 
-- Bulleted
-- List
+#### Finetunes
+Finetunes are use to finetune and existing GPT models. This API will allow you to setup everything you need to prepare for finetuning the model. You can define your training dataset by using a collection of StoryIDs or StoryTags which will be use for dataset during finetuning. The actual training of the model happens in the superinsight-trainer-gpt repo.  
 
-1. Numbered
-2. List
+### [SuperInsight GPT Trainer](https://github.com/superinsight/superinsight-trainer-gpt)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/superinsight/superinsight-page-project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This is a python application that continuously look for finetunes to train by calling the SuperInsight FineTuning API. After traning has been completed the model can be exported to GCP bucket defined by your environment variable.

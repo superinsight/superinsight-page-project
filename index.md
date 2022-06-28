@@ -1,6 +1,6 @@
 ## Superinsight
 
-The purpose of SuperInsight is to accererate the adoption of AI for every organization in the world by empowering organization domain experts to utilize AI using their existing skills and tools.
+The purpose of Superinsight is to accelerate the adoption of AI for every organization in the world by empowering organization domain experts to utilize AI using their existing skills and tools.
 
 
 ### Domain Experts

@@ -4,8 +4,6 @@ Traditional database are execellent at searching data types such as text and num
 
 Previously, all the tools build for machine learning are made for AI researchers and data scientists, and not developers. We think the better approach to this problem is utilize the database as an abstraction layer for machine learning, and enable developers to build AI enabled applications at scale.
 
-To learn more visit us at [Superinsight.ai](https://www.superinsight.ai)  
-
 ## What does it do?
 The Superinsight has the following features that are unique to machine learning database
 
@@ -20,3 +18,6 @@ Machine learning database also provide the ability to train models from scratch 
 
 ### 4. Federated Query
 It is very common that the data you need for your ML operations are located at another data sources. Superinsight ML database also come with the Federated Query feature, which will allow you to query data from multiple data sources using one SQL statement. This will elimiate the need of building out a ETL pipeline, which takes a lot of time and the possiblity of data inconsistency.
+
+### Learn More
+To learn more, visit us at [Superinsight.ai](https://www.superinsight.ai)  

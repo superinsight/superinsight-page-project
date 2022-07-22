@@ -4,9 +4,10 @@ Traditional database are execellent at searching data types such as text and num
 
 Previously, all the tools build for machine learning are made for AI researchers and data scientists, and not developers. We think the better approach to this problem is utilize the database as an abstraction layer for machine learning, and enable developers to build AI enabled applications at scale.
 
+To learn more visit us at [Superinsight.ai](https://www.superinsight.ai)  
+
 ## What does it do?
-The Superinsight has the following features...
-To learn more about Superinsight visit https://www.superinsight.ai
+The Superinsight has the following features that are unique to machine learning database
 
 ### 1. Semantic Search
 Traditional database tables only allow users to search text and numbers using keyword matching or full text search. By default, machine learning database tables store text and image as embeddings, making it easy for users to perfrom semantic search with simple SQL statement.
